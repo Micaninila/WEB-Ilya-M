@@ -6,7 +6,41 @@
     <title>Таблицы</title>
     <link rel="stylesheet" href="style_tables.css">
 </head>
+
 <body>
-    <h1 class="title">Привет мир</h1>
+    <h1 class="title">Таблицы</h1>
+
+    <table>
+
+       <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">Дата регистрации</th>
+        </tr>
+       </thead> 
+
+       <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Дмитрий</td>
+            <td>dima@mail.com</td>
+            <td>21.01.2020</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Александр</td>
+            <td>alex@mail.com</td>
+            <td>22.01.2020</td>
+        </tr>
+       </tbody>
+       
+       <tfoot>
+        <tr>
+            <th scope="row" colspan="4"> Всего: 2</th>
+        </tr>
+       </tfoot>
+    </table>
 </body>
 </html>

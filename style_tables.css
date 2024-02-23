@@ -16,3 +16,32 @@ p {
     letter-spacing: -2px;
     text-transform: uppercase;
 }
+
+
+
+table {
+    border-collapse: collapse;
+    border: 1px dashed rgb(140 140 140);
+    width: 100%;
+}
+th, td {
+    font-weight: normal;
+    padding: 8px 10px;
+}
+
+thead {
+    text-align: left;
+    color: red;
+}
+
+
+tbody {
+    text-align: left;
+}
+tbody th, td {
+  border: 1px dashed rgb(160 160 160);
+}
+
+tfoot {
+    text-align: right;
+}
