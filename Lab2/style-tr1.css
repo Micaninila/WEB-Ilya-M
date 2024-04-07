@@ -1,4 +1,12 @@
+/* For training1.html */
+@font-face{
+    font-family: TimesNewRomanMS;
+    src: url(Fonts/TimesNewRoman/timesnewromanpsmt.ttf);
+}
 body {
     background: url(Files/background-vertical.jpg) repeat-y;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: TimesNewRomanMS, serif;
+}
+h1 {
+    color: red;
 }
