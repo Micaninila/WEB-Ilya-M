@@ -1,0 +1,31 @@
+/* For index6.html */
+h2{
+    font-size: 0.8em;
+}
+h3{
+    font-size: 0.8rem;
+}
+#my-first-div,
+#the-second-one{
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 4px;
+    background: orange;
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    background: darkorange;
+}
+#div1 {
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
