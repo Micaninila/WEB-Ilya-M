@@ -1,26 +1,46 @@
 /* For animations.html */
-#animated_div {
-    width:70px;
-    height:47px;
-    background: #92B901;
-    color: #ffffff;
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
     position: relative;
-    font-weight:bold;
-    font-size:20px;
-    padding:10px;
-    animation:animated_div 5s 1;
-    -moz-animation:animated_div 5s 1;
-    -webkit-animation:animated_div 5s 1;
-    -o-animation:animated_div 5s 1;
-    border-radius:5px;
-    -webkit-border-radius:5px;
-}
-    
-@keyframes animated_div{
-    0% {transform: rotate(0deg);left:0px;}
-    25% {transform: rotate(20deg);left:0px;}
-    50% {transform: rotate(0deg);left:500px;}
-    55% {transform: rotate(0deg);left:500px;}
-    70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
-    100% {transform: rotate(-360deg);left:0px;}
-}
+    border: 3px solid;
+    border-color: #ffffff #eede00 transparent transparent;
+    box-sizing: border-box;
+    animation: rotation 3s linear infinite;
+  }
+  .loader::after,
+  .loader::before {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid;
+    border-color: transparent transparent #ffffff #ff0000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotation 3s linear infinite;
+    transform-origin: center center;
+  }
+  .loader::before {
+    width: 32px;
+    height: 32px;
+    border-color: #ffffff #ff0000 transparent transparent;
+    animation: rotation 3s linear infinite;
+  }
+      
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
