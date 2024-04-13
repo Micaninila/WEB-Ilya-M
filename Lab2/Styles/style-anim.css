@@ -1,3 +1,9 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt {
+  font-weight: 400;
+}
 .loader {
   width: 300px;
   height: 300px;
@@ -66,7 +72,7 @@
   top: 150px;
   left: 50px;
   background-color: #ffffff;
-  animation: sunshine 2.5s ease-in-out infinite;
+  animation: sunshine 2.5s ease-in infinite;
 }   
 .moon {
   width: 200px;
@@ -80,23 +86,31 @@
 }
 @keyframes moonwalk {
   0% {
-    transform: translate(-30px, 30px);
+    transform: translate(-20px, 20px);
   }
   50% {
-    transform: translate(30px, -30px);
+    transform: translate(20px, -20px);
   }
   100% {
-    transform: translate(-30px, 30px);
+    transform: translate(-20px, 20px);
   }
 }
 @keyframes sunshine {
   0% {
     box-shadow: none;
+    background-color: #ffffff;
   }
   50% {
-    box-shadow: 0 0 1em 1em  #ffffff;;
+    box-shadow: 0 0 1em 1em  #c8968e;
+    background-color: #c8968e;
   }
   100% {
-    box-shadow: none;;
+    box-shadow: none;
+    background-color: #ffffff;
   }
+}
+
+.pic {
+  width: 296px;
+  border: 2px solid black;
 }
