@@ -1,46 +1,53 @@
-/* For animations.html */
 .loader {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    border: 3px solid;
-    border-color: #ffffff #eede00 transparent transparent;
-    box-sizing: border-box;
-    animation: rotation 3s linear infinite;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 8px solid;
+  border-color: #946BD6 #946BD6 #cacaca #cacaca;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+.loader::after,
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 8px solid;
+  border-color: #cacaca #cacaca #7C45D6 #7C45D6;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotation 1.5s linear infinite;
+  transform-origin: center center;
+}
+.loader::before {
+  width: 220px;
+  height: 220px;
+  border-color: #2C0571 #2C0571 #cacaca #cacaca;
+  animation: rotation 2s linear infinite;
+}
+    
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
   }
-  .loader::after,
-  .loader::before {
-    content: '';  
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    border: 3px solid;
-    border-color: transparent transparent #ffffff #ff0000;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    animation: rotation 3s linear infinite;
-    transform-origin: center center;
+  100% {
+    transform: rotate(360deg);
   }
-  .loader::before {
-    width: 32px;
-    height: 32px;
-    border-color: #ffffff #ff0000 transparent transparent;
-    animation: rotation 3s linear infinite;
+} 
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
   }
-      
-  @keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  } 
+  100% {
+    transform: rotate(-360deg);
+  }
+}
