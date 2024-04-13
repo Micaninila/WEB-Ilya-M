@@ -1,0 +1,32 @@
+/* for links section  */
+.pages-list {
+    position: relative;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 35px);
+    padding: 10px;
+}
+.pg-link {
+    display: flex;
+    border: 2px solid rgb(95, 95, 95);
+    margin: 2px 5px;
+    padding: 5px 2px;
+    background-color: rgb(220, 220, 220);
+    width: 150px;
+    text-decoration: none;
+}
+.pg-href {
+    text-align: center;
+    width: 100%;
+    font-size: 0.9em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    user-select: none;
+}
+.pg-link:hover{
+    background-color: rgb(165, 165, 165)
+}
