@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#sectionA {
+    font-size: 6em;
+    padding: 200px 0;
+    text-align: center;
+    width: 33%;
+    border: 1px solid black;
+}
+#sectionB {
+    font-size: 6em;
+    padding: 200px 0;
+    text-align: center;
+    width: 33%;
+    border: 1px solid black;
+}
+#sectionC {
+    font-size: 6em;
+    padding: 200px 0;
+    text-align: center;
+    width: 33%;
+    border: 1px solid black;
+}

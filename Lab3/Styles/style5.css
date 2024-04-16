@@ -1,0 +1,13 @@
+#wrapper {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+#sidebar {
+    width: 30%;
+    background-color: #999999;
+}
+#content {
+    width: 70%;
+    background-color: #316731;
+}
