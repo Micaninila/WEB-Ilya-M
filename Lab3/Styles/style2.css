@@ -10,8 +10,9 @@
     z-index: 1;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
     color: white;
-    top: 150px;
+    top: 185px;
     left: 10px;
     padding: 5px;
 }
