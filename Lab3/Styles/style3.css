@@ -1,0 +1,10 @@
+.pic {
+    float: left;
+    margin-right: 10px;
+    width: 400px;
+    border: 2px solid black;
+}
+.txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
