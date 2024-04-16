@@ -2,4 +2,4 @@
 
 Лабораторная работа №2 (сделана): https://micaninila.github.io/WEB-Ilya-M/Lab2/
 
-Лабораторная работа №3 (в процессе)
+Лабораторная работа №3 (в процессе): https://micaninila.github.io/WEB-Ilya-M/Lab3/
