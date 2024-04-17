@@ -1,5 +1,10 @@
-Лабораторная работа №1 (сделана): https://micaninila.github.io/WEB-Ilya-M/Lab1/
+#Разработка веб-приложений
 
-Лабораторная работа №2 (сделана): https://micaninila.github.io/WEB-Ilya-M/Lab2/
+*Лабораторная работа №1: https://micaninila.github.io/WEB-Ilya-M/Lab1/
+>\(Сделана)
+*Лабораторная работа №2: https://micaninila.github.io/WEB-Ilya-M/Lab2/
+>\(Сделана)
+*Лабораторная работа №3: https://micaninila.github.io/WEB-Ilya-M/Lab3/
+>\(В процессе)
 
-Лабораторная работа №3 (в процессе): https://micaninila.github.io/WEB-Ilya-M/Lab3/
+*I notice every copy-paste of my work👀👀...*
