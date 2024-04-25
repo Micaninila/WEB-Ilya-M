@@ -42,3 +42,10 @@ p {
     width: max-content;
     background-color: #0d6cf9;
 }
+.btn:hover {
+    background-color: #0b5ed7;
+}
+.btn-gray:hover {
+    color: white;
+    background-color: #6c757d;
+}
