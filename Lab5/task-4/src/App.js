@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const navlinkItems = [
+    { label: 'Главная', href: '/' },
+    { label: 'О нас', href: '/about' },
+    { label: 'Контакты', href: '/contacts' },
+    // add more items here
+  ];
+  
+  const content = (
+      <ul className="nav">
+        {navlinkItems.map((item, index) => (
+          <li key={index}>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
+  );
+  return(
+    content
   );
 }
 
